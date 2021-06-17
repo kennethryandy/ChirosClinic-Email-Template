@@ -1,0 +1,16 @@
+{
+  "name": "sass-base-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch shared/scss -o shared/css --output-style compressed",
+    "watch": "node-sass --watch shared/scss/style.scss shared/css/style.css --output-style compressed"
+  },
+  "author": "DF",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
